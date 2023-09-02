@@ -8,6 +8,7 @@ def is_inside_mkad(point: Point, mkad_poly: Polygon) -> bool:
     Проверяет, находится ли точка внутри МКАД.
 
     :param point: Объект точки Shapely Point.
+    :param mkad_poly: Объект точки Shapely Polygon.
     :return: True, если точка находится внутри МКАД, иначе False.
     """
     return point.within(mkad_poly)
@@ -18,6 +19,7 @@ def calculate_distance_to_mkad(point: Point, mkad_poly: Polygon) -> int:
     Вычисляет расстояние от точки до МКАД.
 
     :param point: Объект точки Shapely Point.
+    :param mkad_poly: Объект точки Shapely Polygon.
     :return: Расстояние в километрах до МКАД.
     """
     # Можно сделать нахождение расстояния по дорогам через
