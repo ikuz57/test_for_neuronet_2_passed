@@ -1,0 +1,6 @@
+flask
+requests
+python-dotenv
+shapely
+geopy
+pytest

@@ -1,0 +1,2 @@
+YA_GEOKODER_API_KEY=YOUT_TOKEN
+PATH_TO_LOG_FILE=PATH_TO_LOG_FILE # если параметр не указан, то пишется в test_distance.log, сделано для тестов
